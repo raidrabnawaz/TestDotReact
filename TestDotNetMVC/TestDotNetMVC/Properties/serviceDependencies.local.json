@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "identityapp1": {
+      "connectionInfo": "App registration: raid, Tenant: Default Directory (Raidrabnawazoutlook.onmicrosoft.com - Microsoft Entra ID)",
+      "type": "identityapp.default"
+    }
+  }
+}
