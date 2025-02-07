@@ -14,6 +14,7 @@ namespace TestDotNetMVC.Controllers
         }
 
         public async Task<IActionResult> Index() => View(await _repo.GetAllAsync());
+
         public IActionResult Create() => View();
 
         [HttpPost]
