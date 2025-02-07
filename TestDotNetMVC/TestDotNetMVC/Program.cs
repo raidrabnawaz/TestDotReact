@@ -8,10 +8,9 @@ using TestDotNetMVC.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllersWithViews(); // Supports both MVC Views & API Controllers
+builder.Services.AddControllersWithViews(); 
 builder.Services.AddRazorPages();
 
-// Configure Database
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
